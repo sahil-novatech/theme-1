@@ -60,7 +60,7 @@ export default function Menu() {
 						<li><Link href="/home-10" className={`${checkCurrentMenuItem("/home-10")}`}>Home Page 10</Link></li>
 					</ul>
 				</li> */}
-				<li className={`${checkParentActive(['/property-single-v1'])}`}>
+				<li className={`${checkParentActive(['/property'])}`}>
 					<Link href={'/property-single-v1'}>Property</Link>
 				</li>
 				{/* <li className={`has-children ${checkParentActive([
@@ -213,7 +213,7 @@ export default function Menu() {
 						<li><Link href="/shop-order" className={`${checkCurrentMenuItem("/shop-order",)}`}>Shop Order</Link></li>
 					</ul>
 				</li>
-				<li className={`has-children ${checkParentActive(['/blog-list-v3'])}`}>
+				<li className={`has-children ${checkParentActive(['/blog'])}`}>
 					<Link href={'/blog-list-v3'}>Blog</Link>
 				</li>
 				{/* <li className={`has-children ${checkParentActive([

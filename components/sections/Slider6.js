@@ -6,7 +6,7 @@ export default function Slider6() {
 	const router = useRouter()
 	const handleFormSubmit = (e) => {
 		e.preventDefault();
-		router.push('/property-single-v1')
+		router.push('/property-list-v1')
 	};
 	return (
 		<>
