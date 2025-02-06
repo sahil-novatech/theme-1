@@ -160,7 +160,7 @@ export default function Menu() {
 						</li>
 					</ul>
 				</li> */}
-				<li className={`has-children ${checkParentActive([
+				{/* <li className={`has-children ${checkParentActive([
 					"/agent-list",
 					"/agent-single",
 					"/agency-list",
@@ -174,8 +174,8 @@ export default function Menu() {
 						<li><Link href="/agency-list" className={`${checkCurrentMenuItem("/agency-list",)}`}>Agency List</Link></li>
 						<li><Link href="/agency-single" className={`${checkCurrentMenuItem("/agency-single",)}`}>Agency Single</Link></li>
 					</ul>
-				</li>
-				<li className={`has-children ${checkParentActive([
+				</li> */}
+				{/* <li className={`has-children ${checkParentActive([
 					"/about",
 					"/compare",
 					"/pricing",
@@ -195,8 +195,8 @@ export default function Menu() {
 						<li><Link href="/ui-elements" className={`${checkCurrentMenuItem("/ui-elements",)}`}>UI Elements</Link></li>
 						<li><Link href="/dashboard" className={`${checkCurrentMenuItem("/dashboard",)}`}>Dashboard</Link></li>
 					</ul>
-				</li>
-				<li className={`has-children ${checkParentActive([
+				</li> */}
+				{/* <li className={`has-children ${checkParentActive([
 					"/shop-list",
 					"/shop-single",
 					"/shop-cart",
@@ -212,7 +212,7 @@ export default function Menu() {
 						<li><Link href="/shop-checkout" className={`${checkCurrentMenuItem("/shop-checkout",)}`}>Shop Checkout</Link></li>
 						<li><Link href="/shop-order" className={`${checkCurrentMenuItem("/shop-order",)}`}>Shop Order</Link></li>
 					</ul>
-				</li>
+				</li> */}
 				<li className={`has-children ${checkParentActive(['/blog'])}`}>
 					<Link href={'/blog-list-v3'}>Blog</Link>
 				</li>

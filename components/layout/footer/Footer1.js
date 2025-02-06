@@ -63,7 +63,7 @@ export default function Footer1({ footerCls }) {
 									<li><Link href="/property-map-v1">San Francisco</Link></li>
 								</ul>
 							</div>
-							<div className="footer-cl-3">
+							{/* <div className="footer-cl-3">
 								<div className="ft-title">Quick Links</div>
 								<ul className="navigation-menu-footer">
 									<li><Link href="/about">About</Link></li>
@@ -74,7 +74,7 @@ export default function Footer1({ footerCls }) {
 									<li><Link href="/#">Privacy Policy</Link></li>
 									<li><Link href="/#">Terms &amp; Conditions</Link></li>
 								</ul>
-							</div>
+							</div> */}
 							<div className="footer-cl-4">
 								<div className="ft-title">Contact Us</div>
 								<ul className="navigation-menu-footer">
@@ -91,7 +91,7 @@ export default function Footer1({ footerCls }) {
 									</li>
 								</ul>
 							</div>
-							<div className="footer-cl-6">
+							{/* <div className="footer-cl-6">
 								<div className="ft-title">Get the app</div>
 								<ul className="ft-download">
 									<li>
@@ -117,7 +117,7 @@ export default function Footer1({ footerCls }) {
 										</Link>
 									</li>
 								</ul>
-							</div>
+							</div> */}
 						</div>
 						<div className="bottom-footer">
 							<div className="text">Copyright © 2024. JustHome</div>

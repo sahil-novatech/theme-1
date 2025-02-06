@@ -28,10 +28,10 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, isLogi
 									<i className="flaticon-user" />
 								</div>
 							</div>
-							<div className="header-btn">
+							{/* <div className="header-btn">
 								<Link href="/dashboard-add-properties" className="tf-button-default style-white">Add
 									Listing</Link>
-							</div>
+							</div> */}
 						</div>
 						<a className="mobile-nav-toggler mobile-button" onClick={handleMobileMenu} />
 					</div>
