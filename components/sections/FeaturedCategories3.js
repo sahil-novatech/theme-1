@@ -1,7 +1,9 @@
-
+'use client'
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 
 export default function FeaturedCategories3() {
+	const router = useRouter()
 	return (
 		<>
 
@@ -22,7 +24,7 @@ export default function FeaturedCategories3() {
 						</div>
 						<div className="col-12">
 							<div className="wrap mobile-wrap">
-								<div className="categories-item style-1 wow fadeInUp">
+								<div onClick={() => router.push('/property-list-v1')} className="categories-item style-1 wow fadeInUp" style={{cursor: 'pointer'}}>
 									<div className="icon">
 										<i className="flaticon-building" />
 									</div>
@@ -33,7 +35,7 @@ export default function FeaturedCategories3() {
 										<div className="text">20 Properties</div>
 									</div>
 								</div>
-								<div className="categories-item style-1 wow fadeInUp" data-wow-delay="0.1s">
+								<div onClick={() => router.push('/property-list-v1')} className="categories-item style-1 wow fadeInUp" style={{cursor: 'pointer'}} data-wow-delay="0.1s">
 									<div className="icon">
 										<i className="flaticon-cottage" />
 									</div>
@@ -44,7 +46,7 @@ export default function FeaturedCategories3() {
 										<div className="text">20 Properties</div>
 									</div>
 								</div>
-								<div className="categories-item style-1 wow fadeInUp" data-wow-delay="0.15s">
+								<div onClick={() => router.push('/property-list-v1')} className="categories-item style-1 wow fadeInUp" style={{cursor: 'pointer'}} data-wow-delay="0.15s">
 									<div className="icon">
 										<i className="flaticon-buildings" />
 									</div>
@@ -55,7 +57,7 @@ export default function FeaturedCategories3() {
 										<div className="text">20 Properties</div>
 									</div>
 								</div>
-								<div className="categories-item style-1 wow fadeInUp" data-wow-delay="0.2s">
+								<div onClick={() => router.push('/property-list-v1')} className="categories-item style-1 wow fadeInUp" style={{cursor: 'pointer'}} data-wow-delay="0.2s">
 									<div className="icon">
 										<i className="flaticon-office-building" />
 									</div>
@@ -66,7 +68,7 @@ export default function FeaturedCategories3() {
 										<div className="text">20 Properties</div>
 									</div>
 								</div>
-								<div className="categories-item style-1 wow fadeInUp" data-wow-delay="0.25s">
+								<div onClick={() => router.push('/property-list-v1')} className="categories-item style-1 wow fadeInUp" style={{cursor: 'pointer'}} data-wow-delay="0.25s">
 									<div className="icon">
 										<i className="flaticon-cottage" />
 									</div>
@@ -77,7 +79,7 @@ export default function FeaturedCategories3() {
 										<div className="text">20 Properties</div>
 									</div>
 								</div>
-								<div className="categories-item style-1 wow fadeInUp" data-wow-delay="0.3s">
+								<div onClick={() => router.push('/property-list-v1')} className="categories-item style-1 wow fadeInUp" style={{cursor: 'pointer'}} data-wow-delay="0.3s">
 									<div className="icon">
 										<i className="flaticon-building" />
 									</div>

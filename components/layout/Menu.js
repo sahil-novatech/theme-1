@@ -61,7 +61,7 @@ export default function Menu() {
 					</ul>
 				</li> */}
 				<li className={`${checkParentActive(['/property'])}`}>
-					<Link href={'/property-single-v1'}>Property</Link>
+					<Link href={'/property-list-v1'}>Property</Link>
 				</li>
 				{/* <li className={`has-children ${checkParentActive([
 					"/property-list-v1",
