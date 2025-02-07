@@ -34,34 +34,29 @@ export default function Menu() {
 				</li>
 			</ul> */}
 			<ul className="navigation">
-				<li className={`${checkCurrentMenuItem("/")}`}>
-					<Link href='/'>Home</Link>
-				</li>
-				{/* <li className={`has-children ${checkParentActive(["/home-02",
-					"/home-03",
-					"/home-04",
-					"/home-05",
-					"/home-06",
-					"/home-07",
-					"/home-08",
-					"/home-09",
-					"/home-10",
-				])}`}><a>Home</a>
-					<ul>
-						<li><Link href="/">Home Page 01</Link></li>
-						<li><Link href="/home-02" className={`${checkCurrentMenuItem("/home-02")}`}>Home Page 02</Link></li>
-						<li><Link href="/home-03" className={`${checkCurrentMenuItem("/home-03")}`}>Home Page 03</Link></li>
-						<li><Link href="/home-04" className={`${checkCurrentMenuItem("/home-04")}`}>Home Page 04</Link></li>
-						<li><Link href="/home-05" className={`${checkCurrentMenuItem("/home-05")}`}>Home Page 05</Link></li>
-						<li><Link href="/home-06" className={`${checkCurrentMenuItem("/home-06")}`}>Home Page 06</Link></li>
-						<li><Link href="/home-07" className={`${checkCurrentMenuItem("/home-07")}`}>Home Page 07</Link></li>
-						<li><Link href="/home-08" className={`${checkCurrentMenuItem("/home-08")}`}>Home Page 08</Link></li>
-						<li><Link href="/home-09" className={`${checkCurrentMenuItem("/home-09")}`}>Home Page 09</Link></li>
-						<li><Link href="/home-10" className={`${checkCurrentMenuItem("/home-10")}`}>Home Page 10</Link></li>
-					</ul>
+				{/* <li className={`${checkCurrentMenuItem("/")}`}>
+					<Link href='#'>Buy</Link>
 				</li> */}
-				<li className={`${checkParentActive(['/property'])}`}>
-					<Link href={'/property-list-v1'}>Property</Link>
+				<li className={`has-children`}><a>Buy</a>
+					<ul>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1asdf")}`}>Real Estate Toronto</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1asdf")}`}>House for Sale</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1sdaf")}`}>Condos for Sale</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1sdf")}`}>Townhouse for Sale</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1sadf")}`}>Commercial Real Estate</Link></li>
+					</ul>
+				</li>
+				<li className={`has-children`}><a>Rent</a>
+					<ul>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1asdf")}`}>Real Estate Toronto</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1asdf")}`}>House for Sale</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1sdaf")}`}>Condos for Sale</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1sdf")}`}>Townhouse for Sale</Link></li>
+						<li><Link href="/property-list-v1" className={`${checkCurrentMenuItem("/property-list-v1sadf")}`}>Commercial Real Estate</Link></li>
+					</ul>
+				</li>
+				<li className={`${checkParentActive(['#'])}`}>
+					<Link href={'#-list-v1'}>Sell</Link>
 				</li>
 				{/* <li className={`has-children ${checkParentActive([
 					"/property-list-v1",
@@ -214,7 +209,7 @@ export default function Menu() {
 					</ul>
 				</li> */}
 				<li className={`has-children ${checkParentActive(['/blog'])}`}>
-					<Link href={'/blog-list-v3'}>Blog</Link>
+					<Link href={'/blog-list-v3'}>Blogs</Link>
 				</li>
 				{/* <li className={`has-children ${checkParentActive([
 					"/blog-list-v1",
