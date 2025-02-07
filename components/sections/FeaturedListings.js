@@ -37,13 +37,13 @@ export default function FeaturedListings() {
 						<div className="col-12">
 							<div className="flex justify-between items-center top-heading">
 								<div className="heading-section style-white">
-									<h2 className="wow fadeInUp">Featured Listings</h2>
+									<h2 className="wow fadeInUp">Recent Listings in Toronto</h2>
 									<div className="text wow fadeInUp">Based on your view history</div>
 								</div>
-								<Link href="/property-map-v1" className="tf-button-no-bg style-white wow fadeInUp">
+								{/* <Link href="/property-map-v1" className="tf-button-no-bg style-white wow fadeInUp">
 									View All Cities
 									<i className="icon-arrow-right-add" />
-								</Link>
+								</Link> */}
 							</div>
 						</div>
 						<div className="col-12">

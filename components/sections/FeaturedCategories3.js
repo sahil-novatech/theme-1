@@ -11,13 +11,13 @@ export default function FeaturedCategories3() {
 						<div className="col-12">
 							<div className="flex justify-between items-center top-heading">
 								<div className="heading-section">
-									<h2 className="wow fadeInUp">Featured Categories</h2>
-									<div className="text wow fadeInUp">Based on your view history</div>
+									<h2 className="wow fadeInUp">Featured Cities</h2>
+									<div className="text wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 								</div>
-								<Link href="/property-list-v1" className="tf-button-no-bg wow fadeInUp">
+								{/* <Link href="/property-list-v1" className="tf-button-no-bg wow fadeInUp">
 									View All Categories
 									<i className="icon-arrow-right-add" />
-								</Link>
+								</Link> */}
 							</div>
 						</div>
 						<div className="col-12">
@@ -28,7 +28,7 @@ export default function FeaturedCategories3() {
 									</div>
 									<div>
 										<div className="name">
-											<Link href="/#">Town House</Link>
+											<Link href="/#">Toronto</Link>
 										</div>
 										<div className="text">20 Properties</div>
 									</div>
@@ -39,7 +39,7 @@ export default function FeaturedCategories3() {
 									</div>
 									<div>
 										<div className="name">
-											<Link href="/#">Modern Villa</Link>
+											<Link href="/#">Mississauga</Link>
 										</div>
 										<div className="text">20 Properties</div>
 									</div>
@@ -50,7 +50,7 @@ export default function FeaturedCategories3() {
 									</div>
 									<div>
 										<div className="name">
-											<Link href="/#">Apartment</Link>
+											<Link href="/#">Brampton</Link>
 										</div>
 										<div className="text">20 Properties</div>
 									</div>
@@ -61,7 +61,7 @@ export default function FeaturedCategories3() {
 									</div>
 									<div>
 										<div className="name">
-											<Link href="/#">Office</Link>
+											<Link href="/#">Hamilton</Link>
 										</div>
 										<div className="text">20 Properties</div>
 									</div>
@@ -72,7 +72,7 @@ export default function FeaturedCategories3() {
 									</div>
 									<div>
 										<div className="name">
-											<Link href="/#">Office</Link>
+											<Link href="/#">Vaughan</Link>
 										</div>
 										<div className="text">20 Properties</div>
 									</div>
@@ -83,7 +83,7 @@ export default function FeaturedCategories3() {
 									</div>
 									<div>
 										<div className="name">
-											<Link href="/#">Office</Link>
+											<Link href="/#">Markham</Link>
 										</div>
 										<div className="text">20 Properties</div>
 									</div>

@@ -81,12 +81,12 @@ export default function PropertySingleV() {
 								<div className="content-wrap">
 									<div className="head-title wow fadeInUp">
 										<div>
-											<h3>Villa One Hyde Park</h3>
+											<h3>Carlisle</h3>
 											<div className="location">
 												<div className="icon">
 													<i className="flaticon-location" />
 												</div>
-												<div className="text-content">148-37 88th Ave, Jamaica, NY 11435</div>
+												<div className="text-content">6 Iris Court, Hamilton, ON L0R 1H3</div>
 											</div>
 										</div>
 										<div>
@@ -153,23 +153,23 @@ export default function PropertySingleV() {
 											</div>
 											<div className="item wow fadeInUp" data-wow-delay="0.1s">
 												<div className="text">Zip/Postal Code</div>
-												<p>90034</p>
+												<p>L0R 1H3</p>
 											</div>
 											<div className="item wow fadeInUp">
 												<div className="text">City</div>
-												<p>Los Angeles</p>
+												<p>Hamilton</p>
 											</div>
 											<div className="item wow fadeInUp" data-wow-delay="0.1s">
 												<div className="text">Area</div>
-												<p>Brookside</p>
+												<p>Carlisle</p>
 											</div>
 											<div className="item wow fadeInUp">
 												<div className="text">State/county</div>
-												<p>California</p>
+												<p>Hamilton</p>
 											</div>
 											<div className="item wow fadeInUp" data-wow-delay="0.1s">
 												<div className="text">Country</div>
-												<p>United States</p>
+												<p>CA</p>
 											</div>
 										</div>
 									</div>

@@ -21,16 +21,16 @@ export default function Home6() {
 			<Layout  headerStyle={6} footerStyle={1} mainContentCls="default" footerCls="style-full style-fourth">
 				<Slider6 />
 				<ChooseUs3 />
-				<FeaturedCategories3 />
 				<FlatDiscover2 />
-				<FlatCounter2 />
-				<FlatCities4 />
+				<FeaturedCategories3 />
 				<FeaturedListings />
-				<FlatExperts2 />
+				<FlatCounter2 />
+				{/* <FlatCities4 /> */}
+				{/* <FlatExperts2 /> */}
 				<LuxuryHome4 />
-				<FlatTestimonial5 />
-				<FlatQuestion />
-				<AccountBar3 />
+				{/* <FlatTestimonial5 /> */}
+				{/* <FlatQuestion /> */}
+				{/* <AccountBar3 /> */}
 			</Layout>
 		</>
 	)

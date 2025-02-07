@@ -977,8 +977,8 @@ a:hover, a:focus {
 }
 
 .tf-section {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .heading-section {
@@ -6510,6 +6510,7 @@ ul.grid-tags li a:hover {
 }
 
 .luxury-home {
+  margin-top: 100px;
   background-color: var(--Fourth);
   border-radius: 24px;
   padding-bottom: 191px;
@@ -9880,6 +9881,7 @@ body::-webkit-scrollbar {
 }
 
 .flat-counter {
+  margin-top: 100px;
   padding-bottom: 0;
 }
 .flat-counter.style-1 {

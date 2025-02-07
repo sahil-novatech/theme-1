@@ -40,7 +40,7 @@ export default function Footer1({ footerCls }) {
 							</div>
 						</div>
 						<div className="center-footer">
-							<div className="footer-cl-1">
+							{/* <div className="footer-cl-1">
 								<div className="ft-title">Subscribe</div>
 								<form className="form-subscribe style-line-bottom">
 									<fieldset className="email">
@@ -51,7 +51,7 @@ export default function Footer1({ footerCls }) {
 									</div>
 								</form>
 								<div className="text">Subscribe to our newsletter to receive our weekly feed.</div>
-							</div>
+							</div> */}
 							<div className="footer-cl-2">
 								<div className="ft-title">Discover</div>
 								<ul className="navigation-menu-footer">
@@ -120,7 +120,7 @@ export default function Footer1({ footerCls }) {
 							</div> */}
 						</div>
 						<div className="bottom-footer">
-							<div className="text">Copyright © 2024. JustHome</div>
+							<div className="text">© RE/MAX Millennium Real Estate Brokerage Independently Owned & Operated</div>
 						</div>
 					</div>
 				</div>

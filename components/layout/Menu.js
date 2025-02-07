@@ -230,8 +230,8 @@ export default function Menu() {
 						<li><Link href="/blog-single" className={`${checkCurrentMenuItem("/blog-single",)}`}>Blog Single</Link></li>
 					</ul>
 				</li> */}
-				<li>
-					<Link href="/contact" className={`item ${pathname === "/contact" ? "current" : ""}`}>Contact</Link>
+				<li className={`has-children ${checkParentActive(['/preconstructions'])}`}>
+					<Link href="/preconstructions" className={`item ${pathname === "/preconstructions" ? "current" : ""}`}>Preconstructions</Link>
 				</li>
 			</ul>
 		</>
