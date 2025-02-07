@@ -9,7 +9,7 @@ export default function Header12({ scroll, isMobileMenu, handleMobileMenu, isLog
 					<div className="header-inner-wrap">
 						<div id="site-logo">
 							<Link href="/" rel="home">
-								<img className="d-block" id="logo-header" src="images/logo/logo.svg" alt />
+								<img className="d-block" id="logo-header" src="/images/logo/logo.svg" alt />
 							</Link>
 						</div>
 						<nav className="main-menu">

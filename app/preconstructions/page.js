@@ -475,13 +475,13 @@ export default function PropertyGridV1() {
 											</div>
 											<div className="button-heart"><i className="flaticon-heart-1" /></div>
 											<div className="swiper-container slider-box-dream arrow-style-1 pagination-style-1">
-												<SliderBoxDream path="house/property-listing" start={1} end={4} />
+												<SliderBoxDream completePath="/images/summit-series.png" start={1} end={1} />
 											</div>
 										</div>
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">The Summit Series</Link>
+													<Link href="/preconstructions/property-single-v3">The Summit Series</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -494,15 +494,15 @@ export default function PropertyGridV1() {
 											<div className="icon-box">
 												<div className="item">
 													<i className="flaticon-hotel" />
-													<p>4 Beds</p>
+													<p>3 Beds</p>
 												</div>
-												<div className="item">
+												{/* <div className="item">
 													<i className="flaticon-bath-tub" />
 													<p>3 Baths</p>
-												</div>
+												</div> */}
 												<div className="item">
 													<i className="flaticon-minus-front" />
-													<p>2660 Sqft</p>
+													<p>Upto 1033 Sqft</p>
 												</div>
 											</div>
 										</div>
@@ -514,13 +514,13 @@ export default function PropertyGridV1() {
 											</div>
 											<div className="button-heart"><i className="flaticon-heart-1" /></div>
 											<div className="swiper-container slider-box-dream arrow-style-1 pagination-style-1">
-												<SliderBoxDream path="house/property-listing" start={2} end={5} />
+												<SliderBoxDream completePath="/images/the-laurels-condos.png" start={1} end={1} />
 											</div>
 										</div>
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">The Laurels Condos</Link>
+													<Link href="/preconstructions/property-single-v3">The Laurels Condos</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -528,20 +528,20 @@ export default function PropertyGridV1() {
 												<div className="icon">
 													<i className="flaticon-location" />
 												</div>
-												<p>Lamarche Ave, Ottawa, ON K1W, Canada</p>
+												<p>6096 Regional Road #25, Trafalgar, Milton</p>
 											</div>
 											<div className="icon-box">
 												<div className="item">
 													<i className="flaticon-hotel" />
-													<p>4 Beds</p>
+													<p>2 Beds</p>
 												</div>
-												<div className="item">
+												{/* <div className="item">
 													<i className="flaticon-bath-tub" />
 													<p>3 Baths</p>
-												</div>
+												</div> */}
 												<div className="item">
 													<i className="flaticon-minus-front" />
-													<p>2660 Sqft</p>
+													<p>Upto 803 Sqft</p>
 												</div>
 											</div>
 										</div>
@@ -553,13 +553,13 @@ export default function PropertyGridV1() {
 											</div>
 											<div className="button-heart"><i className="flaticon-heart-1" /></div>
 											<div className="swiper-container slider-box-dream arrow-style-1 pagination-style-1">
-												<SliderBoxDream path="house/property-listing" start={3} end={6} />
+												<SliderBoxDream completePath="/images/the-clove-condos.png" start={1} end={1} />
 											</div>
 										</div>
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">The Clove Condos</Link>
+													<Link href="/preconstructions/property-single-v3">The Clove Condos</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -567,20 +567,20 @@ export default function PropertyGridV1() {
 												<div className="icon">
 													<i className="flaticon-location" />
 												</div>
-												<p>Lamarche Ave, Ottawa, ON K1W, Canada</p>
+												<p>The East Mall Crescent, Etobicoke, ON M9B, Canada</p>
 											</div>
 											<div className="icon-box">
 												<div className="item">
 													<i className="flaticon-hotel" />
-													<p>4 Beds</p>
+													<p>3 Beds</p>
 												</div>
-												<div className="item">
+												{/* <div className="item">
 													<i className="flaticon-bath-tub" />
 													<p>3 Baths</p>
-												</div>
+												</div> */}
 												<div className="item">
 													<i className="flaticon-minus-front" />
-													<p>2660 Sqft</p>
+													<p>Upto 1003 Sqft</p>
 												</div>
 											</div>
 										</div>
@@ -592,13 +592,13 @@ export default function PropertyGridV1() {
 											</div>
 											<div className="button-heart"><i className="flaticon-heart-1" /></div>
 											<div className="swiper-container slider-box-dream arrow-style-1 pagination-style-1">
-												<SliderBoxDream path="house/property-listing" start={4} end={7} />
+												<SliderBoxDream completePath="/images/the-towns.png" start={1} end={1} />
 											</div>
 										</div>
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">The Towns on Bayview: Glenwood Collection</Link>
+													<Link href="/preconstructions/property-single-v3">The Towns on Bayview</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -606,20 +606,20 @@ export default function PropertyGridV1() {
 												<div className="icon">
 													<i className="flaticon-location" />
 												</div>
-												<p>Lamarche Ave, Ottawa, ON K1W, Canada</p>
+												<p>Bayview Avenue and 19th Avenue, Richmond Hill, ON</p>
 											</div>
 											<div className="icon-box">
-												<div className="item">
+												{/* <div className="item">
 													<i className="flaticon-hotel" />
 													<p>4 Beds</p>
 												</div>
 												<div className="item">
 													<i className="flaticon-bath-tub" />
 													<p>3 Baths</p>
-												</div>
+												</div> */}
 												<div className="item">
 													<i className="flaticon-minus-front" />
-													<p>2660 Sqft</p>
+													<p>2543 Sqft</p>
 												</div>
 											</div>
 										</div>
@@ -637,7 +637,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Luxury Mansion</Link>
+													<Link href="/preconstructions/property-single-v3">Luxury Mansion</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -676,7 +676,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Home in Merrick Way</Link>
+													<Link href="/preconstructions/property-single-v3">Home in Merrick Way</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -715,7 +715,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Villa in Coral Gables</Link>
+													<Link href="/preconstructions/property-single-v3">Villa in Coral Gables</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -754,7 +754,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Modern House in Greenville</Link>
+													<Link href="/preconstructions/property-single-v3">Modern House in Greenville</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -793,7 +793,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Garden Villa House</Link>
+													<Link href="/preconstructions/property-single-v3">Garden Villa House</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -832,7 +832,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Comfortable Apartment</Link>
+													<Link href="/preconstructions/property-single-v3">Comfortable Apartment</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -871,7 +871,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Single Family Apartment</Link>
+													<Link href="/preconstructions/property-single-v3">Single Family Apartment</Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>
@@ -910,7 +910,7 @@ export default function PropertyGridV1() {
 										<div className="content">
 											<div className="head">
 												<div className="title">
-													<Link href="/property-single-v1">Building Having 28 Office </Link>
+													<Link href="/preconstructions/property-single-v3">Building Having 28 Office </Link>
 												</div>
 												<div className="price">$815,000</div>
 											</div>

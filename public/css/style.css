@@ -3719,8 +3719,9 @@ ul.grid-tags li a:hover {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px 30px;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* gap: 10px 30px; */
 }
 
 .check-ellipse-item {
@@ -3729,11 +3730,15 @@ ul.grid-tags li a:hover {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: start;
   gap: 10px;
   width: 100%;
-  max-width: 250px;
+  /* max-width: 250px; */
+}
+
+.check-ellipse-item p {
+  margin: 0px;
 }
 .check-ellipse-item .icon {
   width: 18px;

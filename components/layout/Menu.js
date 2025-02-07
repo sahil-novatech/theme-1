@@ -231,7 +231,7 @@ export default function Menu() {
 					</ul>
 				</li> */}
 				<li className={`has-children ${checkParentActive(['/preconstructions'])}`}>
-					<Link href="/preconstructions" className={`item ${pathname === "/preconstructions" ? "current" : ""}`}>Preconstructions</Link>
+					<Link href="/preconstructions" className={`item ${pathname === "/preconstructions" ? "current" : ""}`}>Pre-constructions</Link>
 				</li>
 			</ul>
 		</>

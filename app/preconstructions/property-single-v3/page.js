@@ -92,8 +92,8 @@ export default function PropertySingleV3() {
 											</div>
 										</div>
 										<div>
-											<div className="square">$ 1,098 /sq ft</div>
-											<div className="price">$989,000</div>
+											{/* <div className="square">$ 1,098 /sq ft</div> */}
+											<div className="price">$349,990</div>
 										</div>
 									</div>
 									<div className="box-items">
